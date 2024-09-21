@@ -20,7 +20,7 @@ const Navbar = () => {
       >
         <div>
           {/* LOGO */}
-          <Link to="/">
+          <Link to="/sangti-demo">
             <h1 className="text-2xl  antialiased font-bold bg-gradient-to-l from-sGreen to-sBlue bg-clip-text text-transparent  font-sofadi">
               Sangti
             </h1>
