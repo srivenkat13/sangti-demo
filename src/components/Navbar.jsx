@@ -20,7 +20,7 @@ const Navbar = () => {
       >
         <div>
           {/* LOGO */}
-          <Link to="/sangti-demo">
+          <Link to="/">
             <h1 className="text-2xl  antialiased font-bold bg-gradient-to-l from-sGreen to-sBlue bg-clip-text text-transparent  font-sofadi">
               Sangti
             </h1>
@@ -28,6 +28,9 @@ const Navbar = () => {
         </div>
         {/* LINKS TO PAGES */}
         <div className=" flex items-center gap-9   font-medium">
+          <Link to="/" className="cursor-pointer hover:text-neutral-600">
+            Home
+          </Link>
           <Dropdown navTitle="Others" dropdown={dropdownData} />
           <Link to="/about" className="cursor-pointer hover:text-neutral-600">
             About
