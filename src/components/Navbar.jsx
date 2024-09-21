@@ -27,7 +27,7 @@ const Navbar = () => {
           </Link>
         </div>
         {/* LINKS TO PAGES */}
-        <div className=" flex items-center gap-9   font-medium">
+        <div className=" flex items-center gap-2  text-sm md:text-lg md:gap-9 font-medium">
           <Link to="/" className="cursor-pointer hover:text-neutral-600">
             Home
           </Link>

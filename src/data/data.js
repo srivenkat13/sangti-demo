@@ -50,7 +50,7 @@ export const FaqData = [
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, corrupti",
   },
-  { title: "How emission tracking helps ?", content: "djskfhskdjlafhasd" },
+  { title: "How emission tracking helps ?", content: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum vero tempora dicta placeat labore rem accusamus illum quidem, praesentium doloribus?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum vero tempora dicta placeat labore rem accusamus illum quidem, praesentium doloribus?" },
   {
     title: "How is Sangti different from competitors ?",
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, corrupti?",

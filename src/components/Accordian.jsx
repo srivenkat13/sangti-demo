@@ -30,7 +30,7 @@ const Accordian = ({ data }) => {
             isOpen ? "max-h-96" : "max-h-0"
           }`}
         >
-          <div className="p-6 bg-gray-50 text-gray-700">{data.content}</div>
+          <div className="p-6 bg-gray-50 text-gray-700 rounded-2xl">{data.content}</div>
         </div>
       </div>
     </>
