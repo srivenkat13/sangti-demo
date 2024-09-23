@@ -1,6 +1,6 @@
 ### Pricing page
 
-- Pricing Page isnt implemented 
+- Pricing Page isnt implemented when I checked on desktop.
   -  I have tried to Implment a modern looking 3 tile Pricing  page
      -  Made a Single Component and resued for to display various pricing options 
      -  Added button to toggle between Monthly and  Annual plans
@@ -8,8 +8,13 @@
   -  Seperated content from logic, which adds to **maintainability** 
   -  Reffered to dribble for design inspiration 
   [link](https://dribbble.com/shots/18890939-Pricing-page-Untitled-UI)
-  
 
+#### table with dropdown
+
+- Implemented a table to display data and button to toggle a dropdown.
+- `ag-grid` pacakge doesnt allow this on their free plan and have to buy enterprise version to make it work.
+- custom table would be simplier option here.
+ 
 ### Some of issues I indentified and rectifed in sangti landing page
 
 1. FOUT ( Flash out of  Unstyled Text) happens in initial load
@@ -32,7 +37,6 @@
   
   
 
-- Implemented a table to display data
-  -  added option to add data to table 
+
 
 ####  please do review the code, to get an understanding about my approach on structuring the application/components
